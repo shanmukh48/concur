@@ -1,0 +1,354 @@
+  /*
+    .sub_body_style{
+        background-image: url("https://media.istockphoto.com/id/1224500457/photo/programming-code-abstract-technology-background-of-software-developer-and-computer-script.jpg?s=612x612&w=0&k=20&c=nHMypkMTU1HUUW85Zt0Ff7MDbq17n0eVeXaoM9Knt4Q=");
+        background-color: #1111111d;
+        border-radius: 16px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.4;
+    
+    }*/
+
+    .logo_img_style{
+        width: 10vmax;
+        margin-bottom: 10px;
+    margin-left: -56px;
+
+    }
+    .main_head_r{
+    padding: 8px;
+    border-radius: 24px;
+    background-image: url("https://www.inventiva.co.in/wp-content/uploads/2023/02/Software-and-IT-780x470.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+
+    .about_us_style {
+        border-radius: 16px;
+        background: #142482;
+        color: #ffffff;
+        font-weight: 700;
+        font-size: larger;
+        border-radius: 24px;
+        color: #fafafa;
+        padding: 10px;
+        width: 150px;
+        text-align: center;
+
+
+    }
+
+    .about_text{
+        text-align: justify;
+        color: #142482;
+        padding: auto;
+    }
+    .about_us_style_bg{
+        padding: 25px;
+        background: #ffffff21;
+
+    
+    }
+    @media (max-width: 768px) {
+        .about_us_style {
+            width: 15vmax;
+        }
+
+        .horizontal-line {
+            border: none;
+            height: 2px;
+            width: 20%; 
+            background-color: rgb(56, 5, 5); 
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: -10px;
+            
+        }
+
+
+    }
+
+
+    @media (min-width:1077px){
+        .ft_nav_style{
+            visibility: hidden;
+            display: none
+            
+        }
+
+    }
+    @media (max-width:1077px){
+
+        .about_us_style{
+            width: 15vmax;
+        }
+        .vm_style_bg{
+            margin-bottom: 10px;
+        }
+
+        .os_card_margin{
+            margin-bottom: 10px;
+            margin-left: 28px;
+            width: 50px;
+        }
+        /*.sub_head_text{
+        
+            margin-left: -100%;
+        }*/
+        .nav_bar_vis{
+            visibility: hidden;
+            display: none
+        }
+        .os_margin_sec{
+            margin-bottom: 10%;
+        }
+        .ft_nav_style{
+            visibility: visible;
+        }
+
+
+
+    }
+
+
+
+
+    .vm_style{
+        margin-top: 25px;
+    }
+
+
+    .vm_style_bg{
+        padding: 25px;
+        background: #ffffff;
+        border-radius: 16px;
+        margin-right: 5px;
+    }
+
+
+    .vm_text{
+        text-align: justify;
+        color: #142482;
+        padding: 2px;
+    }
+
+
+    .horizontal-line {
+        border: none;
+        height: 2px;
+        width: 3%; 
+        background-color: rgb(5,11,56); 
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -10px;
+        
+    }
+
+    .os_text{
+        font-size: 30px;
+        color: #142482;
+    }
+
+
+    .os_stytling{
+        text-align: center;
+        margin-top: 2%;
+        
+    }
+
+    .os_margin,.ose_margin{
+        margin-top: 4%;
+    }
+
+
+
+
+
+    .contact-info {
+        margin-top: 20px;
+    }
+
+    .address {
+        color: #777;
+    }
+
+    .phone {
+        color: #007bff;
+    }
+
+
+
+    .card_button_color{
+        
+
+    
+        text-decoration: none;
+
+    }
+
+
+    .nav_style{
+        border-radius: 24px;
+        
+       background-color: #142482;
+        color: #fafafa;
+        padding: 10px;
+        width: 150px;
+        text-align: center;
+        margin-top: 25%;
+        text-decoration: none;
+    }
+
+
+    .nav_stkye_a{
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+    .tag_line{
+        text-align: center;
+        padding: 10% 10% 10% 10%;
+        color: rgb(255, 255, 255); /* Set the text color to white */
+
+        font-family: monospace;
+        font-size: 2.5vmax;
+        font-weight: bolder;
+        
+    }
+
+
+
+    .nav_pills{
+        float: left;
+        margin-left: 6%;
+        margin-top: -15%;
+        color: #103142;
+        font-size: smaller;
+        text-align: center;
+        
+
+    }
+
+    .link_deco{
+        text-decoration: none;
+        color: #103142;
+
+    }
+
+    .float_nav{
+        border-radius: 24px;
+        padding: 60px 250px 0px 0px ;
+        
+        
+    }
+
+    .ft_nav_style{
+        position: fixed;
+        
+        bottom: 0; /* Fixed at the top of the viewport */
+        left: 10px;
+        color: white;
+        
+        
+    }
+
+
+    .side-by-side {
+        overflow: hidden; /* Clear the floats */
+        border-radius: 24px;
+        width: 35vmax;
+        margin-top: 50%;
+        margin-bottom: 25%;
+        margin-left: 5vmax;
+        
+    
+    }
+    
+    .text-block {
+        float: left;
+        margin-left: 3%;
+        font-size: small;
+
+        
+    }
+
+
+
+
+    .sub_body_style {
+        background-image: url("https://www.nationsonline.org/gallery/USA/New_York_Midtown_Skyline_at_night.jpg");
+        background-size: cover; /* Adjust as needed */
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* Create a container for the text and black overlay */
+    .overlay-container {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* Apply the black overlay with transparency */
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.522); /* Adjust the last value for transparency */
+    }
+    
+    .md_button{
+        color: black;
+        border-radius: 24px;
+        border-color: bisque;
+    }
+
+    .form_style{
+        border-radius: 24px;
+        width: auto;
+        height: auto;
+    }
+    .form_style_sub{
+        margin-top: 2%;
+    
+    }
+
+
+    .foot{
+        text-align: center;
+        padding: 25px;
+    }
+    .credit{
+        font-size: smaller;
+    }
+    ul {
+        list-style-type: disc; /* You can change this to other values like square, circle, etc. */
+        
+        padding-left: 20px;
+    }
+
+    li {
+        font-size: 18px;
+        margin: 5px 0;
+        color: #103142;
+        text-align: justify;
+        color: #142482;
+        
+    }
+
+    .img_style_new{
+        margin-top: 25px;
+        width: 45vmax;
+        object-fit: cover;
+    }
+
+    .card_border_color{
+        border-color: #142482;
+    }
