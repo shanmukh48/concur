@@ -209,13 +209,21 @@
 
     .tag_line{
         text-align: center;
-        padding: 10% 10% 10% 10%;
-        color: rgb(255, 255, 255); /* Set the text color to white */
-
-        font-family: monospace;
+        padding: 10% 10% 0 10%;
+        color: #ffffff; /* Set the text color to white */
+       
         font-size: 2.5vmax;
         font-weight: bolder;
         
+    }
+    .tag_line_p{
+        text-align: center;
+        color: #ffffff; /* Set the text color to white */
+        
+        font-size: 0.9vmax;
+        font-weight: bolder;
+        padding: 0 0 10% 35%;
+
     }
 
 
@@ -278,7 +286,7 @@
 
 
     .sub_body_style {
-        background-image: url("https://www.nationsonline.org/gallery/USA/New_York_Midtown_Skyline_at_night.jpg");
+       background-color:#142482;
         background-size: cover; /* Adjust as needed */
         background-repeat: no-repeat;
         background-position: center center;
